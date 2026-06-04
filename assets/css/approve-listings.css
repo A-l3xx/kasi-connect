@@ -1,0 +1,297 @@
+.listings-page{
+  min-height:100vh;
+  background:#f5f7fb;
+  padding:40px 0 70px;
+}
+
+.listings-container{
+  width:min(1280px,92%);
+  margin:auto;
+}
+
+/* HERO */
+
+.listings-hero{
+  background:#fff;
+  border:1px solid #e5e7eb;
+  border-radius:32px;
+  padding:36px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:24px;
+  margin-bottom:28px;
+  box-shadow:0 12px 35px rgba(0,0,0,.04);
+}
+
+.listings-hero h1{
+  font-size:2.6rem;
+  color:#111827;
+  margin:10px 0;
+}
+
+.listings-hero p{
+  color:#6b7280;
+  line-height:1.7;
+  max-width:720px;
+}
+
+/* STATS */
+
+.listing-stats{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:18px;
+  margin-bottom:28px;
+}
+
+.listing-stat-card{
+  background:#fff;
+  border:1px solid #e5e7eb;
+  border-radius:24px;
+  padding:24px;
+  box-shadow:0 10px 28px rgba(0,0,0,.04);
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.listing-stat-card i{
+  width:58px;
+  height:58px;
+  border-radius:18px;
+  display:grid;
+  place-items:center;
+  background:#111827;
+  color:#fff;
+  font-size:1.2rem;
+}
+
+.listing-stat-card span{
+  color:#6b7280;
+  font-size:.95rem;
+}
+
+.listing-stat-card strong{
+  font-size:2rem;
+  color:#111827;
+}
+
+/* GRID */
+
+.listing-review-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+  gap:24px;
+}
+
+/* CARD */
+
+.listing-review-card{
+  background:#fff;
+  border:1px solid #e5e7eb;
+  border-radius:28px;
+  overflow:hidden;
+  box-shadow:0 10px 28px rgba(0,0,0,.04);
+  transition:.25s ease;
+}
+
+.listing-review-card:hover{
+  transform:translateY(-5px);
+}
+
+/* IMAGE */
+
+.listing-img{
+  height:240px;
+}
+
+.listing-img.real-img img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.listing-img.peach{
+  background:linear-gradient(135deg,#ffedd5,#fdba74);
+}
+
+.listing-img.mint{
+  background:linear-gradient(135deg,#dcfce7,#4ade80);
+}
+
+.listing-img.sky{
+  background:linear-gradient(135deg,#dbeafe,#60a5fa);
+}
+
+.listing-img.yellow{
+  background:linear-gradient(135deg,#fef9c3,#facc15);
+}
+
+.listing-img.lavender{
+  background:linear-gradient(135deg,#ede9fe,#8b5cf6);
+}
+
+/* CONTENT */
+
+.listing-review-content{
+  padding:24px;
+}
+
+.listing-review-content h3{
+  font-size:1.4rem;
+  color:#111827;
+  margin:18px 0 14px;
+}
+
+.listing-review-content p{
+  color:#6b7280;
+  line-height:1.7;
+  margin-bottom:18px;
+}
+
+/* STATUS */
+
+.status-pill{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:10px 16px;
+  border-radius:999px;
+  font-size:.82rem;
+  font-weight:800;
+}
+
+.status-pill.approved{
+  background:#eaf8ef;
+  color:#15803d;
+}
+
+.status-pill.rejected{
+  background:#ffecec;
+  color:#dc2626;
+}
+
+/* META */
+
+.listing-meta{
+  display:grid;
+  gap:12px;
+  margin-bottom:22px;
+}
+
+.listing-meta span{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  color:#374151;
+  font-size:.95rem;
+}
+
+.listing-meta i{
+  color:#f97316;
+  width:18px;
+}
+
+/* ACTIONS */
+
+.listing-actions{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+}
+
+.listing-actions form{
+  flex:1;
+}
+
+.listing-actions .btn{
+  width:100%;
+  height:56px;
+  border-radius:18px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  font-weight:800;
+}
+
+.reject-btn{
+  border:1px solid #fecaca !important;
+  background:#fff5f5 !important;
+  color:#dc2626 !important;
+}
+
+.reject-btn:hover{
+  background:#fee2e2 !important;
+}
+
+/* EMPTY */
+
+.empty-admin-state{
+  background:#fff;
+  border:1px solid #e5e7eb;
+  border-radius:32px;
+  padding:80px 24px;
+  text-align:center;
+  box-shadow:0 10px 28px rgba(0,0,0,.04);
+}
+
+.empty-admin-state i{
+  width:110px;
+  height:110px;
+  border-radius:34px;
+  background:#fff4df;
+  color:#f97316;
+  display:grid;
+  place-items:center;
+  margin:0 auto 24px;
+  font-size:3rem;
+}
+
+.empty-admin-state h3{
+  font-size:2.2rem;
+  color:#111827;
+  margin-bottom:14px;
+}
+
+.empty-admin-state p{
+  color:#6b7280;
+  max-width:650px;
+  margin:auto;
+  line-height:1.8;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+  .listings-hero{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+}
+
+@media(max-width:700px){
+
+  .listings-hero,
+  .listing-review-content,
+  .listing-stat-card,
+  .empty-admin-state{
+    padding:22px;
+  }
+
+  .listings-hero h1{
+    font-size:2rem;
+  }
+
+  .listing-review-grid{
+    grid-template-columns:1fr;
+  }
+
+  .listing-actions{
+    flex-direction:column;
+  }
+
+}
