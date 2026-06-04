@@ -7,6 +7,9 @@ Kasi Connect is a township-focused digital marketplace designed to connect local
 The primary goal of Kasi Connect is to promote local economic growth, increase digital inclusion, and help township businesses establish an online presence. The platform bridges the gap between local consumers and community businesses by providing an easy-to-use, mobile-friendly marketplace that supports both products and services.
 
 ---
+# Get Started Page
+<img width="1510" height="885" alt="image" src="https://github.com/user-attachments/assets/412fe787-eadd-47b6-a30b-8e5a6370a69d" />
+
 
 # Project Objectives
 
