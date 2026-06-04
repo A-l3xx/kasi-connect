@@ -23,6 +23,7 @@ You either create an account as a Customer or as a Seller
 <img width="1556" height="697" alt="image" src="https://github.com/user-attachments/assets/76cf3f3e-29db-46ec-bce6-e7c787b77a1b" />
 
 <img width="1522" height="762" alt="image" src="https://github.com/user-attachments/assets/b47e4ca3-0409-4b06-950d-f94f97d1adb2" />
+
 ## Market Place
 <img width="1621" height="785" alt="image" src="https://github.com/user-attachments/assets/c62c2087-87f7-4db2-9c0e-51ec80cf8b0b" />
 
